@@ -1,17 +1,9 @@
 "use strict";
 
-const AllDaPlanets = require('./planet-generator');
-console.log(AllDaPlanets);
+const mercury = require("./p1-mercury");
 
-document.getElementById("planetButtons").addEventListener('click', (event) => {
-	let planetSelected;
-	if(event.target.id === 'planetButtons'){
-		planetSelected = 'mercury';
-	} else {
-		planetSelected = event.target.id;
-	}
-	document.getElementById("planetsDiv").innerHTML = AllDaPlanets[planetSelected]();
-});
+mercury(document.getElementById("output"));
 
 
-// Error is saying: AllDaPlanets[planetSelected] is not a function
+
+
