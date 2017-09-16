@@ -16,13 +16,13 @@ const jupiter = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${jupiter.Name}</h3>
-                            <p>${jupiter.Discovered}<br />
-                            ${jupiter.Mass}<br />
-                            ${jupiter.Size}<br />
-                            ${jupiter.Orbit}<br />
-                            ${jupiter.Atmosphere}<br />
-                            ${jupiter.Satellites}<br />
-                            ${jupiter.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${jupiter.Discovered}<br />
+                            <strong>Mass:</strong> ${jupiter.Mass}<br />
+                            <strong>Size:</strong> ${jupiter.Size}<br />
+                            <strong>Distance from Sun:</strong> ${jupiter.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${jupiter.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${jupiter.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${jupiter.Probes}</p>
                             </div>`;
 }
 

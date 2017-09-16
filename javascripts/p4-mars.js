@@ -16,13 +16,13 @@ const mars = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${mars.Name}</h3>
-                            <p>${mars.Discovered}<br />
-                            ${mars.Mass}<br />
-                            ${mars.Size}<br />
-                            ${mars.Orbit}<br />
-                            ${mars.Atmosphere}<br />
-                            ${mars.Satellites}<br />
-                            ${mars.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${mars.Discovered}<br />
+                            <strong>Mass:</strong> ${mars.Mass}<br />
+                            <strong>Size:</strong> ${mars.Size}<br />
+                            <strong>Distance from Sun:</strong> ${mars.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${mars.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${mars.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${mars.Probes}</p>
                             </div>`;
 }
 

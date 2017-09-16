@@ -16,13 +16,13 @@ const earth = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
     						<h3>${earth.Name}</h3>
-							<p>${earth.Discovered}<br />
-							${earth.Mass}<br />
-							${earth.Size}<br />
-							${earth.Orbit}<br />
-							${earth.Atmosphere}<br />
-							${earth.Satellites}<br />
-							${earth.Probes}</p>
+							<p><strong>Year Discovered:</strong> ${earth.Discovered}<br />
+							<strong>Mass:</strong> ${earth.Mass}<br />
+							<strong>Size:</strong> ${earth.Size}<br />
+							<strong>Distance from Sun:</strong> ${earth.Orbit}<br />
+							<strong>Atmosphere Composition:</strong> ${earth.Atmosphere}<br />
+							<strong>Satellites:</strong> ${earth.Satellites}<br />
+							<strong>Probes/Orbiters/Explorers:</strong> ${earth.Probes}</p>
 							</div>`;
 }
 

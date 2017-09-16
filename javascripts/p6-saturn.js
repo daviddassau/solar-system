@@ -16,13 +16,13 @@ const saturn = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${saturn.Name}</h3>
-                            <p>${saturn.Discovered}<br />
-                            ${saturn.Mass}<br />
-                            ${saturn.Size}<br />
-                            ${saturn.Orbit}<br />
-                            ${saturn.Atmosphere}<br />
-                            ${saturn.Satellites}<br />
-                            ${saturn.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${saturn.Discovered}<br />
+                            <strong>Mass:</strong> ${saturn.Mass}<br />
+                            <strong>Size:</strong> ${saturn.Size}<br />
+                            <strong>Distance from Sun:</strong> ${saturn.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${saturn.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${saturn.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${saturn.Probes}</p>
                             </div>`;
 }
 
