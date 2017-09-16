@@ -14,14 +14,16 @@ const mercury = {
 
 
 function outputTo(domElement) {
-    domElement.innerHTML += `<h3>${mercury.Name}</h3>
+    domElement.innerHTML += `<div class="col-md-3">
+    						<h3>${mercury.Name}</h3>
 							<p>${mercury.Discovered}<br />
 							${mercury.Mass}<br />
 							${mercury.Size}<br />
 							${mercury.Orbit}<br />
 							${mercury.Atmosphere}<br />
 							${mercury.Satellites}<br />
-							${mercury.Probes}</p>`;
+							${mercury.Probes}</p>
+							</div>`;
 }
 
 module.exports = outputTo;
