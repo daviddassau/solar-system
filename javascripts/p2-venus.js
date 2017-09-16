@@ -16,13 +16,13 @@ const venus = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
     						<h3>${venus.Name}</h3>
-							<p>${venus.Discovered}<br />
-							${venus.Mass}<br />
-							${venus.Size}<br />
-							${venus.Orbit}<br />
-							${venus.Atmosphere}<br />
-							${venus.Satellites}<br />
-							${venus.Probes}</p>
+							<p><strong>Year Discovered:</strong> ${venus.Discovered}<br />
+							<strong>Mass:</strong> ${venus.Mass}<br />
+							<strong>Size:</strong> ${venus.Size}<br />
+							<strong>Distance from Sun:</strong> ${venus.Orbit}<br />
+							<strong>Atmosphere Composition:</strong> ${venus.Atmosphere}<br />
+							<strong>Satellites:</strong> ${venus.Satellites}<br />
+							<strong>Probes/Orbiters/Explorers:</strong> ${venus.Probes}</p>
 							</div>`;
 }
 

@@ -16,13 +16,13 @@ const neptune = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${neptune.Name}</h3>
-                            <p>${neptune.Discovered}<br />
-                            ${neptune.Mass}<br />
-                            ${neptune.Size}<br />
-                            ${neptune.Orbit}<br />
-                            ${neptune.Atmosphere}<br />
-                            ${neptune.Satellites}<br />
-                            ${neptune.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${neptune.Discovered}<br />
+                            <strong>Mass:</strong> ${neptune.Mass}<br />
+                            <strong>Size:</strong> ${neptune.Size}<br />
+                            <strong>Distance from Sun:</strong> ${neptune.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${neptune.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${neptune.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${neptune.Probes}</p>
                             </div>`;
 }
 

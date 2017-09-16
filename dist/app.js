@@ -43,13 +43,13 @@ const mercury = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
     						<h3>${mercury.Name}</h3>
-							<p>${mercury.Discovered}<br />
-							${mercury.Mass}<br />
-							${mercury.Size}<br />
-							${mercury.Orbit}<br />
-							${mercury.Atmosphere}<br />
-							${mercury.Satellites}<br />
-							${mercury.Probes}</p>
+							<p><strong>Year Discovered:</strong> ${mercury.Discovered}<br />
+							<strong>Mass:</strong> ${mercury.Mass}<br />
+							<strong>Size:</strong> ${mercury.Size}<br />
+							<strong>Distance from Sun:</strong> ${mercury.Orbit}<br />
+							<strong>Atmosphere Composition:</strong> ${mercury.Atmosphere}<br />
+							<strong>Satellites:</strong> ${mercury.Satellites}<br />
+							<strong>Probes/Orbiters/Explorers:</strong> ${mercury.Probes}</p>
 							</div>`;
 }
 
@@ -73,13 +73,13 @@ const venus = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
     						<h3>${venus.Name}</h3>
-							<p>${venus.Discovered}<br />
-							${venus.Mass}<br />
-							${venus.Size}<br />
-							${venus.Orbit}<br />
-							${venus.Atmosphere}<br />
-							${venus.Satellites}<br />
-							${venus.Probes}</p>
+							<p><strong>Year Discovered:</strong> ${venus.Discovered}<br />
+							<strong>Mass:</strong> ${venus.Mass}<br />
+							<strong>Size:</strong> ${venus.Size}<br />
+							<strong>Distance from Sun:</strong> ${venus.Orbit}<br />
+							<strong>Atmosphere Composition:</strong> ${venus.Atmosphere}<br />
+							<strong>Satellites:</strong> ${venus.Satellites}<br />
+							<strong>Probes/Orbiters/Explorers:</strong> ${venus.Probes}</p>
 							</div>`;
 }
 
@@ -103,13 +103,13 @@ const earth = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
     						<h3>${earth.Name}</h3>
-							<p>${earth.Discovered}<br />
-							${earth.Mass}<br />
-							${earth.Size}<br />
-							${earth.Orbit}<br />
-							${earth.Atmosphere}<br />
-							${earth.Satellites}<br />
-							${earth.Probes}</p>
+							<p><strong>Year Discovered:</strong> ${earth.Discovered}<br />
+							<strong>Mass:</strong> ${earth.Mass}<br />
+							<strong>Size:</strong> ${earth.Size}<br />
+							<strong>Distance from Sun:</strong> ${earth.Orbit}<br />
+							<strong>Atmosphere Composition:</strong> ${earth.Atmosphere}<br />
+							<strong>Satellites:</strong> ${earth.Satellites}<br />
+							<strong>Probes/Orbiters/Explorers:</strong> ${earth.Probes}</p>
 							</div>`;
 }
 
@@ -133,13 +133,13 @@ const mars = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${mars.Name}</h3>
-                            <p>${mars.Discovered}<br />
-                            ${mars.Mass}<br />
-                            ${mars.Size}<br />
-                            ${mars.Orbit}<br />
-                            ${mars.Atmosphere}<br />
-                            ${mars.Satellites}<br />
-                            ${mars.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${mars.Discovered}<br />
+                            <strong>Mass:</strong> ${mars.Mass}<br />
+                            <strong>Size:</strong> ${mars.Size}<br />
+                            <strong>Distance from Sun:</strong> ${mars.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${mars.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${mars.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${mars.Probes}</p>
                             </div>`;
 }
 
@@ -163,13 +163,13 @@ const jupiter = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${jupiter.Name}</h3>
-                            <p>${jupiter.Discovered}<br />
-                            ${jupiter.Mass}<br />
-                            ${jupiter.Size}<br />
-                            ${jupiter.Orbit}<br />
-                            ${jupiter.Atmosphere}<br />
-                            ${jupiter.Satellites}<br />
-                            ${jupiter.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${jupiter.Discovered}<br />
+                            <strong>Mass:</strong> ${jupiter.Mass}<br />
+                            <strong>Size:</strong> ${jupiter.Size}<br />
+                            <strong>Distance from Sun:</strong> ${jupiter.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${jupiter.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${jupiter.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${jupiter.Probes}</p>
                             </div>`;
 }
 
@@ -193,13 +193,13 @@ const saturn = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${saturn.Name}</h3>
-                            <p>${saturn.Discovered}<br />
-                            ${saturn.Mass}<br />
-                            ${saturn.Size}<br />
-                            ${saturn.Orbit}<br />
-                            ${saturn.Atmosphere}<br />
-                            ${saturn.Satellites}<br />
-                            ${saturn.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${saturn.Discovered}<br />
+                            <strong>Mass:</strong> ${saturn.Mass}<br />
+                            <strong>Size:</strong> ${saturn.Size}<br />
+                            <strong>Distance from Sun:</strong> ${saturn.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${saturn.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${saturn.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${saturn.Probes}</p>
                             </div>`;
 }
 
@@ -223,13 +223,13 @@ const uranus = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${uranus.Name}</h3>
-                            <p>${uranus.Discovered}<br />
-                            ${uranus.Mass}<br />
-                            ${uranus.Size}<br />
-                            ${uranus.Orbit}<br />
-                            ${uranus.Atmosphere}<br />
-                            ${uranus.Satellites}<br />
-                            ${uranus.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${uranus.Discovered}<br />
+                            <strong>Mass:</strong> ${uranus.Mass}<br />
+                            <strong>Size:</strong> ${uranus.Size}<br />
+                            <strong>Distance from Sun:</strong> ${uranus.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${uranus.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${uranus.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${uranus.Probes}</p>
                             </div>`;
 }
 
@@ -253,13 +253,13 @@ const neptune = {
 function outputTo(domElement) {
     domElement.innerHTML += `<div class="col-md-3">
                             <h3>${neptune.Name}</h3>
-                            <p>${neptune.Discovered}<br />
-                            ${neptune.Mass}<br />
-                            ${neptune.Size}<br />
-                            ${neptune.Orbit}<br />
-                            ${neptune.Atmosphere}<br />
-                            ${neptune.Satellites}<br />
-                            ${neptune.Probes}</p>
+                            <p><strong>Year Discovered:</strong> ${neptune.Discovered}<br />
+                            <strong>Mass:</strong> ${neptune.Mass}<br />
+                            <strong>Size:</strong> ${neptune.Size}<br />
+                            <strong>Distance from Sun:</strong> ${neptune.Orbit}<br />
+                            <strong>Atmosphere Composition:</strong> ${neptune.Atmosphere}<br />
+                            <strong>Satellites:</strong> ${neptune.Satellites}<br />
+                            <strong>Probes/Orbiters/Explorers:</strong> ${neptune.Probes}</p>
                             </div>`;
 }
 
