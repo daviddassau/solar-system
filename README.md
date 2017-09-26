@@ -1,6 +1,6 @@
-# solar-system
+# Solar System
 
-##### Requirements
+## Requirements
 You'll be creating a web page that will display important scientific data about all eight planets in our solar system. The information about each planet will be separate modules.
 1. Each module will export a single function named outputTo that will accept a single argument. That argument's value will be the DOM element reference into which it will insert information about a planet.
 ```javascript
@@ -21,3 +21,5 @@ function outputTo(domElement) {
 
 ##### Bonus stretch goal
 Once you've got the basic implementation working, find a way to have the `outputTo()` only defined once, and still be able to output each planet's information to the DOM. It can't be defined in the main module.
+
+## Final Result
