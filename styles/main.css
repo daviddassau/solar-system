@@ -1,0 +1,11 @@
+body {
+	background: url('http://www.nhm.ac.uk/discover/how-our-solar-system-was-born/jcr:content/discoverpublication/image.img.1024.high.jpg/1503595560310.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h3, p {
+	color: white;
+}
