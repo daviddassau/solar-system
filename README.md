@@ -23,3 +23,4 @@ function outputTo(domElement) {
 Once you've got the basic implementation working, find a way to have the `outputTo()` only defined once, and still be able to output each planet's information to the DOM. It can't be defined in the main module.
 
 ## Final Result
+![](1.png)
